@@ -1,0 +1,311 @@
+/* general css */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 55px;
+}
+.banner {
+    padding: 100px 0;
+    margin: 50px 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+h4 {
+    color: #9c9c9c;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    transition: all 0.3s ease-out;
+    text-decoration: none;
+}
+
+.bnr-txt h4 {
+    color: #333333;
+}
+
+button.navbar-toggler {
+    border-color: white;
+}
+
+a:hover {
+    color: #009933;
+}
+
+.logo {
+    max-width: 200px;
+}
+
+h5 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #000000;
+    transition: 0.3s;
+}
+
+.text-white {
+    color: white;
+}
+span {
+    font-size: 16px;
+    font-weight: 700;
+    color: #333333;
+}
+.section-padding {
+    padding: 70px 0;
+}
+
+.header {
+    position: relative;
+    padding: 10px 0;
+    background: yellow;
+    color: white;
+}
+.banner-txt p {
+    color: #ffffff;
+    font-size: 20px;
+}
+.sction-1 {
+    overflow: hidden;
+}
+/* nav bar */
+li.nav-item a {
+    margin: 0 40px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+nav.navbar.navbar-expand-lg {
+    padding: 0;
+}
+
+
+
+div#navbarSupportedContent {
+    align-items: center;
+}
+
+a.login-btn {
+    margin: 0 30px;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: inline-block;
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 10px;
+    background: linear-gradient(215deg, #00325d, #005aa9);
+}
+
+a.login-btn:hover {
+    transform: translate(-5px, -5px);
+}
+
+.abt-text p{
+    font-size: 20px;
+}
+
+.section-btn a {
+    display: inline-block;
+    padding: 15px 50px;
+    background: aliceblue;
+    border-radius: 25px;
+}
+.section1-text{
+    background: black;
+    color: white;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .testimonial-box {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    padding: 45px;
+    text-align: start;
+}
+span.symbol {
+    font-size: 30px;
+    color: white;
+}
+
+
+
+h4 {
+    font-size: 24px;
+    line-height: 34px;
+    padding: 0;
+    margin: 0;
+    color: var(--text-heading-color);
+    font-family: var(--heading-font);
+    font-weight: 700;
+}
+
+
+
+
+.list li a {
+    color: black;
+}
+.social-icons a i {
+    color: black;
+    font-size: 25px;
+    padding: 10px 30px 0 0;
+}
+section.footer {
+   
+    
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background: yellow;
+    overflow: hidden;
+    color: white;
+}
+
+
+  .cs-footer_item h5 {
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+  }
+  .cntct-links a i {
+    font-size: 20px;
+    color: #000000;
+    transition: all 0.3s ease-out;
+  }
+  .cntct-links a {
+    display: inline-flex;
+    text-decoration: none;
+    border: 2px solid #000000;
+    margin: 0px 10px 0 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+  .cs-text_widget {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .copyrights-link p {
+    color: white;
+  }
+  .copyrights-link a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 700;
+    transition: all 0.3s ease-out;
+}
+
+  .copyright {
+   
+    padding: 20px 0 10px 0;
+  }
+  .cs-footer_item p {
+    color: #ffffff;
+  }
+  
+  .contct-links img {
+    width: 50px;
+    display: block;
+    margin: 0 auto;
+  }
+  .contct-links {
+    text-align: center;
+  }
+  .cs-fooer_main {
+    padding: 50px 0 20px 0;
+    border-bottom: 1px solid rgb(0 0 0);
+  }
+  .cs-footer_item h5 {
+    margin: 10px 0 10px 0;
+  }
+  .cs-footer_item ul li a {
+   
+text-decoration: none;
+   
+margin: 10px 0;
+   
+display: block;
+   
+color: white;
+   
+transition: 0.3s;
+   
+font-size: 16px;
+  }
+  .cs-footer_item ul li a:hover {
+    color: #25aae2;
+  }
+  .cs-footer_item ul li {
+    list-style: none;
+}
+.cs-footer_item ul {
+    padding-left:0px;
+}
+img.footer-logo {
+    width: 220px;
+}
+.use-link{
+    padding-left: 100px;
+}
+
+
+
+
+
+
+@media only screen and (max-width:767px){
+    h1 {
+        color: #034077;
+        font-weight: 700;
+        font-size: 35px;
+    }
+    h2 {
+        color: #034077;
+        font-size: 30px;
+        font-weight: 600;
+    }
+}
+
+
+
+
+
+
+
